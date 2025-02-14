@@ -20,3 +20,14 @@ food = input("Enter your favorite food: ")
 movie = input("Enter your favorite TV show: ")
 
 print(f'I like to eat {food} while watching {movie}')
+
+#Task 3: Converts inches to meters
+
+    #CONSTANT
+INCH_CONVERSION = 0.254
+
+inch = float(input("Enter the amount of inches: "))
+meters = inch * INCH_CONVERSION
+
+print(f'{inch} inche(s) is equal to {meters} meter(s)')
+
